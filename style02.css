@@ -1,0 +1,78 @@
+body{
+	font-family: verdana;
+	background-color: rgb(70, 69, 69);
+	background-image: url("igredientes.jpg");
+   /* background-repeat: repeat; */
+   /* background-repeat: repeat-x; */
+   /* background-repeat: repeat-y; */
+    background-repeat: no-repeat; 
+    /* background-position: 50px 100px; */
+    /*  background-position: left bottom; */
+    background-position: center center;
+    /* background-size: 780px 460px; */
+    background-size: 100% 100%
+    /* background-attachment: scroll */;
+    background-attachment: fixed;
+    opacity: 3.0;
+}
+#banner {
+	background-color: rgba(255, 249, 249, 0.014);
+	height: 76px;
+	padding: 30px 70px 30px 70px;
+}
+
+#banner h1 {
+	float: left;
+    margin: 0;
+}
+
+#banner nav {
+	float: right;
+	position: relative;
+	top: 30px;
+}
+
+#banner ul {
+	margin: 0;
+}
+
+#banner nav ul li {
+	display: inline-block;
+	width: 100px;
+}
+
+#banner nav ul li a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    }
+
+h2 {
+    color:rgb(255, 255, 255);
+}
+
+p{
+    color:rgb(255, 255, 255); 
+}
+
+#copyright {
+	background-color: #060606;
+    padding: 35px 0 10px 0;	
+}
+
+#copyright a {
+	display: block;
+	text-align: center;
+}
+
+#copyright p {
+	font-size: 12px;
+	text-align: center;
+}
+
